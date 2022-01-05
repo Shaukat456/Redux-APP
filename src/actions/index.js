@@ -9,3 +9,5 @@ const DecNum=()=>{
         type:"decrement"
     }
 }
+
+export { IncNum , DecNum }  

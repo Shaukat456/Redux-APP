@@ -3,6 +3,7 @@ import { useState } from 'react';
 import IncDec from './IncDec';
 
 
+
 // import {InputGroup ,Button,Input} from  'reactstrap'
 // onclick app start
 // preloader
@@ -24,7 +25,7 @@ function Counter (){
         INCREMENT AND DECREMENT</p>
     <a href="#" className="btn btn-primary"> <h3>START APP</h3></a>
   </div>
-  <div class="card-footer text-muted">
+  <div className="card-footer text-muted">
     
   </div>
 </div>
