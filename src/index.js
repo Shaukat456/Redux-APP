@@ -1,23 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'
-import {Provider} from 'react-redux'
-// import store from './store'
-import states from './store'
-
-states.subscribe(()=>{
-  console.log(states.getState() )
-})
-
+import './index.css'
+import {Provider}  from  'react-redux'
+import store from '../src/redux/store'
 
 
 ReactDOM.render(
-  <React.StrictMode>
-      <Provider store={states}>
+  // <Provider store={store}>
 
     <App/>
-    </Provider>
-  </React.StrictMode>,
+  // </Provider>
+   ,
   document.getElementById('root')
 );
 
